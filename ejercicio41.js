@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();
 
 const randomArray = [];
 const maxArray = Number(prompt("Ingrese cantidad de números a evaluar: ")),
-    limit = [-100, 100];
+    limit = [-10, 10];
 let addAll = 0,
     countPos = 0,
     addPos = 0;
@@ -21,3 +21,5 @@ console.log(`${randomArray}     Suma de positivos: ${addPos}
 Los cantidad de Positivos es: ${countPos}
 El promedio de positivos es: ${addPos/(countPos === 0 ? 1: countPos)}
 El promedio de todos los numeros es: ${addAll/randomArray.length}`);
+
+//El promedio de positivos es: ${(countPos === 0) ? 0: addPos/countPos}

@@ -25,3 +25,15 @@ function include(array, num) {
     }
     return false;
 }
+
+/**
+ * const comprobar = (array) => {
+ * let value;
+    do {
+        value = Math.floor(Math.random() * maxArray) + 1;
+    } while (include(array, value))
+    return value;
+ * }
+    De esta manera se genera una clausura del valor de "VALUE" y se 
+    guarda en una constante hasta tanto se vuelva a llamar a la función.
+ */
