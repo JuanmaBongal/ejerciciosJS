@@ -4,6 +4,7 @@ let x = Number(prompt("Introduce un número: "));
 let y = Number(prompt("Introduce otro numero: "));
 let eleccion;
 do {
+    console.clear();
     console.log(`Seleccione el número de una de las siguientes opciones:
 1: Sumar
 2: Restar
